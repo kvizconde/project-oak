@@ -255,8 +255,8 @@ h2.subheading {
 /* CONTACT-BUTTON BREAKING POINT */
 @media only screen and (max-width: 460px) {
   .btn-contact {
-    font-size: 0.75rem;
-    padding: 10px 15px 10px 15px;
+    font-size: 0.65rem;
+    padding: 10px 14px 10px 14px;
   }
 }
 

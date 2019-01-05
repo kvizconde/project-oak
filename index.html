@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Professor S. Oak</title>
+
+  <!-- 
+
+  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+          ___          _        _      ___       _   
+        | _ \_ _ ___ (_)___ __| |_   / _ \ __ _| |__
+        |  _/ '_/ _ \| / -_) _|  _| | (_) / _` | / /
+        |_| |_| \___// \___\__|\__|  \___/\__,_|_\_\
+                    |__/                             
+
+    Version: 1.0
+    Created By: Kevin Vizconde
+  ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+  -->
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Press+Start+2P|Roboto" rel="stylesheet">
+  <script src="js/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+  <div class="top-container">
+    <img class="header-image" src="images/oak.png" alt="profile-photo">
+    <h1>Professor S. Oak</h1>
+    <h2 class="subheading">World class Pokémon Professor.</h2>
+  </div>
+
+
+  <div class="middle-container">
+    <img class="pokeball-image" src="images/pokeball.gif" alt="pokeball">
+    <form>
+      What is your name?
+      <input type="text" name="name" id="user-input">
+      <input type="button" id="btn" onclick="welcome(); clearField()" value="Go">
+    </form>
+    <h3 class="hello">Hello
+      <span id="display">..</span>.
+    </h3>
+
+    <p class="intro-row"> My name is Professor Oak, I am a Pokémon Professor currently residing in Pallet Town, Kanto.
+      My area of expertise is in Pokémon and human relationships. I ❤️ to rap and write haikus. </p>
+    <hr>
+    <h2>Research. <br> ▼ </h2>
+
+    <div class="research-bg">
+      <div class="research-row">
+        <img src="images/bulbasaur.png" alt="bulbasaur-pokemon" class="research-img">
+        <h3>Bulbasaur</h3>
+        <p> Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's
+          rays, the seed grows progressively larger. </p>
+      </div>
+    </div>
+
+    <div class="research-bg red">
+      <div class="research-row charmander">
+        <img src="images/charmander.png" alt="charmander-pokemon" class="research-img charmander">
+        <h3>Charmander</h3>
+        <p> The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when
+          Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely. </p>
+      </div>
+    </div>
+
+    <div class="research-bg blue">
+      <div class="research-row">
+        <img src="images/squirtle.png" alt="squirtle-pokemon" class="research-img">
+        <h3>Squirtle</h3>
+        <p> Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its
+          surface help minimize resistance in water, enabling this Pokémon to swim at high speeds. </p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="pika-container">
+      <div class="pika-bg">
+        <img src="images/pika.png" alt="pikachu-pokemon" class="pika-bye">
+      </div>
+    </div>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you need advice on anything Pokémon.</h3>
+      <p>Love Pokémon as much as I do? Let's talk about how awesome they are while indulging in some rap music!</p>
+
+      <div class="btn-contact-container">
+        <a class="btn-contact" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://pokemondb.net/pokedex/all" target="_blank">Pokedex</a>
+    <a class="footer-link" href="http://pokemon.wikia.com/wiki/Pok%C3%A9mon_Wiki" target="_blank">Poke-Wiki</a>
+    <a class="footer-link" href="https://www.pokemon.com/us/" target="_blank">Website</a>
+    <p class="copyright"> © 2018 Kevin Vizconde. </p>
+  </div>
+
+
+</body>
+
+</html>

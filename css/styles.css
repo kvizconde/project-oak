@@ -1,0 +1,280 @@
+/** 
+styles.css
+*/
+
+/*-------------------------
+Project: OAK
+Version: 1.0
+Created By: Kevin Vizconde
+
+
+[TABLE OF CONTENTS]
+▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+GLOBAL ELEMENTS - Element selectors {h1, h2, h3, body etc.}
+DESIGN - Navigation and content design {buttons, hovers, etc.}
+HEADING - Site name, logo, main menu
+CONTENT - Research, comments, images etc.
+CONTACT - Contact links
+FOOTER - Copyright, text links
+▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+[FONTS USED]
+font-family: 'Montserrat', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+-------------------------/
+
+
+/* GLOBAL ELEMENTS */
+html {
+  cursor: url('../large-cursor.png'), default;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  color: #3b393c;
+  background-color: #fcfbf6;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5rem;
+  margin: 50px auto 30px auto;
+  color: #fcfbf6;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #d64541;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #e37070;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  color: #e7e6e2;
+  border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #c1224f;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+/* DESIGN */
+#user-input {
+  margin: 0 5px 0 5px;
+  letter-spacing: 1.2px;
+  width: 150px;
+}
+
+#btn {
+  background-color: transparent;
+  width: 50px;
+  cursor: pointer;
+  border-width: 2px;
+  outline: 0;
+  border-radius: 12px;
+}
+
+#btn:hover {
+  background-color: #c1224f;
+  outline: 0;
+  color: #fcfbf6;
+  font-style: italic;
+}
+
+#btn:active {
+  background-color: #c1224f;
+  outline: 0;
+  color: #fcfbf6;
+  font-style: italic;
+}
+
+
+/* HEADING */
+.top-container {
+  background-image: radial-gradient(#f86956, #d64541);
+  position: relative;
+  padding-top: 100px;
+}
+
+.header-image {
+  border-radius: 100%;
+  background-color: #fcfbf6;
+}
+
+h2.subheading {
+  display: inline-block;
+  color: #fcfbf6;
+  width: 25%;
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+
+
+/* CONTENT */
+.middle-container {
+  margin: 100px 0;
+}
+
+.pokeball-image {
+  height: 40px;
+  width: auto;
+  margin: 0 0 10px 75px;
+}
+
+.hello {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.75rem;
+  color: #d64541;
+  margin: 75px 0;
+}
+
+
+.intro-row {
+  width: 30%;
+  margin: auto;
+}
+
+.research-bg {
+  background-color: #83eec5;
+  width: 100%;
+  padding: 1px 0;
+  margin: 0 auto;
+}
+
+.research-bg.red {
+  background-color: #ffd57b;
+}
+
+.research-bg.blue {
+  background-color: #b4e6ee;
+}
+
+.research-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  margin-bottom: 10%;
+}
+
+.research-row.charmander {
+  text-align: left;
+}
+
+.research-img {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin: 0 30px 30px 0;
+  filter: drop-shadow(2px 2px 8px #2222225e);
+}
+
+.research-img.charmander {
+  float: right;
+  margin-left: 30px;
+}
+
+
+/* CONTACT */
+.pika-container {
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+}
+
+.pika-bg {
+  border-radius: 100%;
+  background-color: #fff6a4;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.pika-bye {
+  width: 200px;
+  height: auto;
+  margin: 30px 0;
+  filter: drop-shadow(2px 2px 5px #5e5e5e5e);
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto 60px;
+}
+
+.btn-contact-container {
+  margin: 75px auto;
+  width: 100%;
+}
+
+.btn-contact {
+  background: #f86956;
+  background-image: -webkit-linear-gradient(top, #f86956, #d64541);
+  background-image: -moz-linear-gradient(top, #f86956, #d64541);
+  background-image: -ms-linear-gradient(top, #f86956, #d64541);
+  background-image: -o-linear-gradient(top, #f86956, #d64541);
+  background-image: linear-gradient(to bottom, #f86956, #d64541);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  font-family: Montserrat;
+  color: #fcfbf6;
+  font-size: 0.875rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  background: #c1224f;
+}
+
+
+/* CONTACT-BUTTON BREAKING POINT */
+@media only screen and (max-width: 460px) {
+  .btn-contact {
+    font-size: 0.75rem;
+    padding: 10px 15px 10px 15px;
+  }
+}
+
+
+/* FOOTER */
+.bottom-container {
+  background-color: #f86956;
+  width: 100%;
+  padding: 75px 0 20px 0;
+}
+
+.footer-link:hover {
+  color: #fcfbf6;
+}
+
+p.copyright {
+  color: #fcfbf6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin: 30px 0 1px;
+}

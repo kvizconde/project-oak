@@ -81,7 +81,14 @@ a {
   text-decoration: none;
 }
 
+
 /* DESIGN */
+.input-container {
+  width: 90%;
+  line-height: 3;
+  margin: 0 auto;
+}
+
 #user-input {
   margin: 0 5px 0 5px;
   letter-spacing: 1.2px;
@@ -225,11 +232,6 @@ h2.subheading {
   margin: 0 auto 60px;
 }
 
-.btn-contact-container {
-  margin: 75px auto;
-  width: 100%;
-}
-
 .btn-contact {
   background: #f86956;
   background-image: -webkit-linear-gradient(top, #f86956, #d64541);
@@ -245,27 +247,11 @@ h2.subheading {
   font-size: 0.875rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  width: 100%;
 }
 
 .btn-contact:hover {
   background: #c1224f;
-}
-
-
-/* CONTACT-BUTTON BREAKING POINTS */
-@media only screen and (max-width: 480px) {
-  .btn-contact {
-    font-size: 10px;
-    padding: 10px 14px 10px 14px;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .btn-contact {
-    font-size: 8px;
-  }
-
-
 }
 
 

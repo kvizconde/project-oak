@@ -40,9 +40,11 @@
   <div class="middle-container">
     <img class="pokeball-image" src="images/pokeball.gif" alt="pokeball">
     <form>
-      What is your name?
-      <input type="text" name="name" id="user-input">
-      <input type="button" id="btn" onclick="welcome(); clearField()" value="Go">
+      <div class="input-container">
+        What is your name?
+        <input type="text" name="name" id="user-input">
+        <input type="button" id="btn" onclick="welcome(); clearField()" value="Go">
+      </div>
     </form>
     <h3 class="hello">Hello
       <span id="display">..</span>.
@@ -91,12 +93,8 @@
       <h2>Get In Touch</h2>
       <h3>If you need advice on anything Pokémon.</h3>
       <p>Love Pokémon as much as I do? Let's talk about how awesome they are while indulging in some rap music!</p>
-
-      <div class="btn-contact-container">
-        <a class="btn-contact" href="mailto:name@email.com">CONTACT ME</a>
-      </div>
-
     </div>
+    <a class="btn-contact" href="mailto:name@email.com">CONTACT ME</a>
   </div>
 
 
